@@ -1,30 +1,43 @@
-.bg-navy{
-  background-color: #2c3e50;
+:root {
+  --navy: #2c3e50;
 }
 
-.bg-success{
+
+.bg-navy {
+  background-color: var(--navy);
+}
+
+.border-navy {
+  border-color: var(--navy) !important;
+}
+
+.text-navy {
+  color: var(--navy)
+}
+
+.bg-success {
   background-color: #1abc9c !important;
 }
 
-.monsterrat{
+.monsterrat {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-.hero-banner{
+.hero-banner {
   min-height: 80vh;
 }
 
-.hero-img{
+.hero-img {
   max-height: 30vh;
 }
 
-.navbar{
+.navbar {
   min-height: 10vh;
 }
 
-.border-middle{
+.border-middle {
   min-height: 1vh;
   min-width: 5vw;
 }
