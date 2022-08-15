@@ -41,3 +41,23 @@
   min-height: 1vh;
   min-width: 5vw;
 }
+
+
+.ms-9000 {
+  font-size: 25px;
+}
+
+.me-9000 {
+  font-size: 25px
+}
+
+@media (min-width:786px) {
+  .ms-9000 {
+    margin-left: 14em;
+  }
+
+  .me-9000 {
+    margin-right: 14em;
+  }
+
+}
