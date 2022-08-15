@@ -1,0 +1,30 @@
+.bg-navy{
+  background-color: #2c3e50;
+}
+
+.bg-success{
+  background-color: #1abc9c !important;
+}
+
+.monsterrat{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.hero-banner{
+  min-height: 80vh;
+}
+
+.hero-img{
+  max-height: 30vh;
+}
+
+.navbar{
+  min-height: 10vh;
+}
+
+.border-middle{
+  min-height: 1vh;
+  min-width: 5vw;
+}
