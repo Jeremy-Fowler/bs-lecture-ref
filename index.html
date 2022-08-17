@@ -35,9 +35,9 @@
 </style>
 
 <body class="debug">
-  <header>
+  <header class="sticky-top">
     <!-- SECTION Navbar -->
-    <nav class="navbar navbar-expand-lg bg-navy sticky-top">
+    <nav class="navbar navbar-expand-lg bg-navy">
       <div class="container-fluid px-5">
         <a class="navbar-brand text-light monsterrat" href="#">Start Bootstrap</a>
         <button class="navbar-toggler bg-success text-light" type="button" data-bs-toggle="collapse"
@@ -110,24 +110,49 @@
           <div class="border-light border-bottom border-middle"></div>
         </div>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-sm-6">
         <p class="ms-9000">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ad fuga! Laborum
           quidem nisi ipsa
           numquam illum, aspernatur sunt ratione perferendis voluptates provident, iusto, doloribus velit! Explicabo eos
           itaque voluptatum!</p>
       </div>
-      <div class="col-12 col-md-6 ">
+      <div class="col-12 col-sm-6 ">
         <p class="me-9000">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, ad fuga! Laborum
           quidem nisi ipsa
           numquam illum, aspernatur sunt ratione perferendis voluptates provident, iusto, doloribus velit! Explicabo eos
           itaque voluptatum!</p>
       </div>
-      <div class="col-4 text-center my-4">
-        <button class="btn btn-outline-light fs-2"><i class="mdi mdi-tray-arrow-down"></i> Free Download</button>
+      <div class="col-12 text-center my-4">
+        <button class="btn btn-outline-light fs-2"><i class="mdi mdi-download-box-outline"></i> Free Download!</button>
       </div>
     </section>
     <!-- SECTION Contact -->
-    <section class="row"></section>
+    <section class="row">
+      <div class="col-12 d-flex flex-column align-items-center my-5">
+        <h1 class="monsterrat text-navy">contact me</h2>
+          <div class="d-flex align-items-center border-5 text-navy border-navy">
+            <div class="border-navy border-bottom border-middle"></div>
+            <div class="mdi mdi-star-face fs-1 px-2"></div>
+            <div class="border-navy border-bottom border-middle"></div>
+          </div>
+      </div>
+      <div class="col-12">
+        <form action="">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="name" placeholder="Full Name">
+            <label for="floatingInput">Full Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="phoneNumber" placeholder="Phone Number">
+            <label for="floatingPassword">Phone Number</label>
+          </div>
+        </form>
+      </div>
+    </section>
     <!-- SECTION Social media -->
     <section class="row"></section>
   </main>

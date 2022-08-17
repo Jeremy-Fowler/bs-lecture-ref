@@ -51,6 +51,16 @@
   font-size: 25px
 }
 
+@media (min-width:576px) {
+  .ms-9000 {
+    margin-left: 3em;
+  }
+
+  .me-9000 {
+    margin-right: 3em;
+  }
+
+}
 @media (min-width:786px) {
   .ms-9000 {
     margin-left: 14em;
