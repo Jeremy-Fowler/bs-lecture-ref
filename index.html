@@ -37,7 +37,7 @@
 <body class="debug">
   <header class="sticky-top">
     <!-- SECTION Navbar -->
-    <nav class="navbar navbar-expand-lg bg-navy">
+    <nav class="navbar navbar-expand-lg bg-navy navbar-shrink">
       <div class="container-fluid px-5">
         <a class="navbar-brand text-light monsterrat" href="#">Start Bootstrap</a>
         <button class="navbar-toggler bg-success text-light" type="button" data-bs-toggle="collapse"
@@ -71,7 +71,7 @@
         <!-- Cool star buddy -->
         <div class="d-flex align-items-center border-5">
           <div class="border-light border-bottom border-middle"></div>
-          <div class="mdi mdi-star-face fs-1 px-2"></div>
+          <i class="mdi mdi-star-face fs-1 px-2"></i>
           <div class="border-light border-bottom border-middle"></div>
         </div>
         <h2 class="text-center">Graphic Artist - Web Designer - Illustrator</h2>
@@ -83,21 +83,21 @@
         <h1 class="monsterrat text-navy">PORTFOLIO</h2>
           <div class="d-flex align-items-center border-5 text-navy border-navy">
             <div class="border-navy border-bottom border-middle"></div>
-            <div class="mdi mdi-star-face fs-1 px-2"></div>
+            <i class="mdi mdi-star-face fs-1 px-2"></i>
             <div class="border-navy border-bottom border-middle"></div>
           </div>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5"><img class="rounded img-fluid"
+      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5 portfolio-img"><img class="rounded img-fluid"
           src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt=""></div>
-      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5"><img class="rounded img-fluid"
+      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5 portfolio-img"><img class="rounded img-fluid"
           src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt=""></div>
-      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5"><img class="rounded img-fluid"
+      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5 portfolio-img"><img class="rounded img-fluid"
           src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt=""></div>
-      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5"><img class="rounded img-fluid"
+      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5 portfolio-img"><img class="rounded img-fluid"
           src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt=""></div>
-      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5"><img class="rounded img-fluid"
+      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5 portfolio-img"><img class="rounded img-fluid"
           src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt=""></div>
-      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5"><img class="rounded img-fluid"
+      <div class="col-12 col-sm-6 col-md-4 px-3 py-4 p-md-5 portfolio-img"><img class="rounded img-fluid"
           src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
       </div>
     </section>
@@ -107,7 +107,7 @@
         <h1 class="monsterrat">about</h1>
         <div class="d-flex align-items-center border-5 mb-3  ">
           <div class="border-light border-bottom border-middle"></div>
-          <div class="mdi mdi-star-face fs-1 px-2"></div>
+          <i class="mdi mdi-star-face fs-1 px-2"></i>
           <div class="border-light border-bottom border-middle"></div>
         </div>
       </div>
@@ -133,37 +133,77 @@
         <h1 class="monsterrat text-navy">contact me</h2>
           <div class="d-flex align-items-center border-5 text-navy border-navy">
             <div class="border-navy border-bottom border-middle"></div>
-            <div class="mdi mdi-star-face fs-1 px-2"></div>
+            <i class="mdi mdi-star-face fs-1 px-2"></i>
             <div class="border-navy border-bottom border-middle"></div>
           </div>
       </div>
-      <div class="col-12">
+      <div class="col-12 px-9000 mb-5">
         <form action="">
           <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="name" placeholder="Full Name">
+            <input type="text" class="form-control border-bottom border-0" id="name" placeholder="Full Name">
             <label for="floatingInput">Full Name</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <input type="email" class="form-control border-bottom border-0" id="floatingInput"
+              placeholder="name@example.com">
             <label for="floatingInput">Email address</label>
           </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="phoneNumber" placeholder="Phone Number">
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control border-bottom border-0" id="phoneNumber"
+              placeholder="Phone Number">
             <label for="floatingPassword">Phone Number</label>
           </div>
-          <div class="form-floating">
-            <textarea class="form-control" id="message" rows="3"></textarea>
-            <label for="floatingPassword">Message</label>
+          <div class="form-floating mb-3">
+            <textarea class="form-control border-bottom border-0" placeholder="Leave a message here" id="message"
+              style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Message</label>
           </div>
+          <button class="btn btn-success p-3 mb-3" type="submit">Send</button>
         </form>
       </div>
     </section>
     <!-- SECTION Social media -->
-    <section class="row"></section>
+    <section class="row bg-navy monsterrat  py-5 align-items-center ">
+      <div class="col-12 col-md-4 my-4 my-md-3 text-light text-center order-2 order-md-1 ">
+        <h3 class="mb-4"><b>LOCATION</b></h3>
+        <p class="p-0 m-0">
+          2215 John Daniel Drive
+        </p>
+        <p class="p-0 m-0"> Clark, MO 65243</p>
+      </div>
+      <div class="col-12 col-md-4 my-4 my-md-3 text-light text-center order-1 order-md-2">
+        <h3 class="mb-4"><b>Around the web</b></h3>
+        <div class="row justify-content-center">
+          <div class="col-2 p-0 text-center">
+            <i class="mdi mdi-facebook border-round p-2 mx-1 "></i>
+          </div>
+          <div class="col-2 p-0 text-center">
+            <i class="mdi mdi-twitter border-round p-2 mx-1 "></i>
+          </div>
+          <div class="col-2 p-0 text-center">
+            <i class="mdi mdi-linkedin border-round p-2 mx-1 "></i>
+          </div>
+          <div class="col-2 p-0 text-center">
+            <i class="mdi mdi-basketball mdi-spin border-round p-2 mx-1 "></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 my-4 my-md-3 text-light text-center order-3">
+        <h3 class="mb-4"><b>About freelancer</b></h3>
+        <p class="mb-0">
+          Freelance is a free to use, MIT licensed Bootstrap theme created by
+          <a href="https://startbootstrap.com/" class="text-success">Start Bootstrap</a>.
+        </p>
+      </div>
+    </section>
   </main>
   <footer class="container-fluid">
     <!-- SECTION Copyright -->
-    <section class="row"></section>
+    <section class="row bg-dark">
+      <div class="col-12 text-center my-4">
+        <small class="text-light">Copyright © Your Website 2022</small>
+      </div>
+    </section>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

@@ -39,9 +39,21 @@
 
 .border-middle {
   min-height: 1vh;
-  min-width: 5vw;
+  min-width: 15vw;
 }
 
+.border-round{
+  border: 1.5px solid #f8f9fa ;
+  border-radius: 50em;
+  font-size: 1.5em;
+}
+
+.border-round:hover{
+  background-color: white;
+  color: #2c3e50;
+  cursor: pointer ;
+  transition: ease-in-out .3s;
+}
 
 .ms-9000 {
   font-size: 25px;
@@ -61,6 +73,7 @@
   }
 
 }
+/* NOTE apply to medium screen size and up */
 @media (min-width:786px) {
   .ms-9000 {
     margin-left: 14em;
@@ -68,6 +81,11 @@
 
   .me-9000 {
     margin-right: 14em;
+  }
+
+  .px-9000{
+    padding-left: 26vw;
+    padding-right: 26vw;
   }
 
 }
